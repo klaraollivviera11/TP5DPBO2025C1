@@ -1,22 +1,26 @@
 # Janji
+
 Saya Klara Ollivviera Augustine Gunawan dengan NIM 2306205 mengerjakan soal Tugas Praktikum 5 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 # Desain Program
-Program merupakan form "Data Mahasiswa" yang mengimplementasikan CRUD menggunakan koneksi database MySQL. Program terdiri dari 3 class. Dengan detail berikut:
 
-1. Class Mahasiswa
+Program merupakan form "Data Mahasiswa" yang mengimplementasikan CRUD menggunakan koneksi database MySQL. Program terdiri dari 3 class. Dengan detail berikut:
+## 1. Class Mahasiswa
+
 Kelas ini merepresentasikan data mahasiswa dengan atribut sebagai berikut:
 - NIM → Nomor Induk Mahasiswa
 - Nama → Nama mahasiswa
 - Jenis Kelamin → Jenis kelamin mahasiswa
 - Status → Status perkuliahan mahasiswa
-2. Class Database
+## 2. Class Database
+
 Kelas ini bertanggung jawab untuk koneksi dan eksekusi query ke database MySQL.
 
 Fungsi utama dalam Database:
 - selectQuery(String sql) → Mengeksekusi query SELECT dan mengembalikan hasilnya dalam bentuk ResultSet.
 - insertUpdateDeleteQuery(String sql) → Mengeksekusi query INSERT, UPDATE, atau DELETE dan mengembalikan jumlah baris yang terpengaruh.
-3. Class Menu
+## 3. Class Menu
+
 Kelas ini mengatur tampilan dan interaksi pengguna menggunakan Java Swing.
 
 Komponen dalam Menu:
@@ -37,6 +41,7 @@ Method dalam Menu:
 - getSelectedStatus() → Mengambil nilai status mahasiswa yang dipilih.
 
 # Alur Program
+
 1. Pastikan MySQL sudah berjalan dan database db_mahasiswa telah dibuat.
 2. Menjalankan Program: GUI akan ditampilkan dengan daftar mahasiswa dari database.
 3. Menambahkan Data:
@@ -54,5 +59,6 @@ Method dalam Menu:
 - Klik tombol "Cancel" untuk menghapus isi form tanpa mengubah data di tabel.
 
 # Dokumentasi
+
 https://github.com/user-attachments/assets/4b600a92-f84a-4f34-a456-36fad65bdc6c
 
